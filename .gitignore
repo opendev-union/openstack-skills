@@ -1,0 +1,25 @@
+# Credentials — never commit
+clouds.yaml
+secure.yaml
+*openrc*.sh
+*-openrc
+cloud.conf
+*.pem
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+.terraform.lock.hcl
+
+# Editors / OS
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
